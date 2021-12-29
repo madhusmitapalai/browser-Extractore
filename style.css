@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,200&family=Nunito:wght@200;300;400;700;800;900&family=Pacifico&family=Podkova:wght@400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Satisfy&family=Yuji+Mai&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-transform: capitalize;
+    
+    font-family: 'Podkova', serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #6990f2;
+}
+.container{
+    background-color: #fff;
+
+    padding: 2rem;
+    border-radius: 0.31rem;
+}
+.container header{
+    font-size:2rem;
+    color: #6990f2;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    padding-bottom: .5rem;
+}
+.container form{
+    border: .2rem;
+    border: .2rem dashed #6990f2;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.container form :where(p,i){
+    color: #6990f2;
+}
+.container form i{
+    font-size: 3.2rem;
+}
+.container form p{
+    font-size: 1rem;
+    margin-top: .9rem;
+}
+section .row{
+    background-color: #e9f0ff;
+    margin-top: .8rem;
+    padding: .9rem 1.2rem;
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section .row i{
+    font-size: 1.8rem;
+    color: #6990f2;
+}
+.progress-area .row .content{
+    width: 100%;
+    margin-left: .9rem;
+}
+.progress-area .details{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.progress-area .progress-bar{
+    height: .4rem;
+    width: 100%;
+    background-color: #fff;
+    margin-top: .5rem;
+}
+.progress-area .progress{
+    height: 100%;
+    width: 0%;
+    background-color: #6990f2;
+    border-radius: inherit;
+}
+.upload-area .content{
+    display: flex;
+    align-items: center;
+}
+.upload-area .details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.upload-area .fa-check{
+    font-size: .8rem;
+    color: #6990f2;
+}
+.upload-area .size{
+    font-size: .7rem;
+    color: #6990f2;
+}
+.upload-area{
+    max-height: 15rem;
+    overflow-y: scroll;
+}
+.upload-area::-webkit-scrollbar{
+    width: 0rem;
+}
+
+section .row span{
+font-size: .9rem;
+}
